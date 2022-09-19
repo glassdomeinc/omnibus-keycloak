@@ -1,0 +1,46 @@
+{
+  "name": "omnibus-keycloak",
+  "version": "0.0.0",
+  "description": "A starter/demo project for keycloakify",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "keycloak": "yarn build && keycloakify",
+    "create-keycloak-email-directory": "create-keycloak-email-directory",
+    "download-builtin-keycloak-theme": "download-builtin-keycloak-theme"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@emotion/react": "^11.10.4",
+    "keycloakify": "^6.3.6",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "evt": "^2.4.2"
+  },
+  "devDependencies": {
+    "@types/node": "^18.7.18",
+    "@types/react": "18.0.20",
+    "@types/react-dom": "18.0.6",
+    "@typescript-eslint/eslint-plugin": "^5.37.0",
+    "@typescript-eslint/parser": "^5.37.0",
+    "eslint": "8.23.1",
+    "eslint-config-next": "12.3.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.7.1",
+    "react-scripts": "5.0.1",
+    "typescript": "^4.8.3"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
