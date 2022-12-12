@@ -22,8 +22,6 @@ export default function KcApp({ kcContext }: Props) {
   const props = {
     i18n,
     ...defaultKcProps,
-    // NOTE: The classes are defined in ./KcApp.css
-    kcHeaderWrapperClass: 'my-color',
   }
 
   return (
