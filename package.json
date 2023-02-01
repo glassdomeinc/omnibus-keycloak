@@ -11,25 +11,24 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@emotion/react": "^11.10.4",
-    "keycloakify": "^6.3.6",
+    "@emotion/react": "^11.10.5",
+    "evt": "^2.4.13",
+    "keycloakify": "^6.10.1",
     "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "evt": "^2.4.2"
+    "react-dom": "18.2.0"
   },
   "devDependencies": {
-    "@types/node": "^18.7.18",
-    "@types/react": "18.0.20",
-    "@types/react-dom": "18.0.6",
-    "@typescript-eslint/eslint-plugin": "^5.37.0",
-    "@typescript-eslint/parser": "^5.37.0",
-    "eslint": "8.23.1",
-    "eslint-config-next": "12.3.0",
-    "eslint-config-prettier": "^8.5.0",
+    "@types/node": "^18.11.18",
+    "@types/react": "18.0.27",
+    "@types/react-dom": "18.0.10",
+    "@typescript-eslint/eslint-plugin": "^5.50.0",
+    "@typescript-eslint/parser": "^5.50.0",
+    "eslint": "8.33.0",
+    "eslint-config-prettier": "^8.6.0",
     "eslint-plugin-prettier": "^4.2.1",
-    "prettier": "^2.7.1",
+    "prettier": "^2.8.3",
     "react-scripts": "5.0.1",
-    "typescript": "^4.8.3"
+    "typescript": "^4.9.5"
   },
   "browserslist": {
     "production": [

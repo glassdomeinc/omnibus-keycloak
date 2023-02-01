@@ -1,12 +1,15 @@
 {
   "recommendations": [
-    "redvanworkshop.explorer-exclude-vscode-extension",
     "esbenp.prettier-vscode",
     "dbaeumer.vscode-eslint",
     "editorconfig.editorconfig",
     "codeandstuff.package-json-upgrade",
     "cesium.gltf-vscode",
     "formulahendry.auto-rename-tag",
-    "naumovs.color-highlight"
-  ]
+    "naumovs.color-highlight",
+    "peterschmalfeldt.explorer-exclude"
+  ],
+  "unwantedRecommendations": [
+    "redvanworkshop.explorer-exclude-vscode-extension",
+  ],
 }
