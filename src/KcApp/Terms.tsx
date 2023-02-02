@@ -7,7 +7,7 @@ import type { I18n } from './i18n'
 import { evtTermMarkdown } from 'keycloakify/lib/components/Terms'
 import { useRerenderOnStateChange } from 'evt/hooks'
 import tos_en_url from './tos_en.md'
-import tos_fr_url from './tos_fr.md'
+import tos_kr_url from './tos_kr.md'
 import { useCssAndCx } from 'keycloakify/lib/tools/useCssAndCx'
 
 /**
@@ -29,8 +29,8 @@ const Terms = memo(({ kcContext, i18n, ...props }: { kcContext: KcContext_Terms;
       const markdownString = await fetch(
         (() => {
           switch (currentLanguageTag) {
-            case 'fr':
-              return tos_fr_url
+            case 'kr':
+              return tos_kr_url
             default:
               return tos_en_url
           }
